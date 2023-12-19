@@ -91,6 +91,7 @@ class MainMenuState extends MusicBeatState
 	var selectUi:FlxSprite;
 	var bigIcons:FlxSprite;
 	var camFollow:FlxObject;
+
 	public static var bgPaths:Array<String> = [
 		'Aadsta',
 		'ArtiztGmer',
