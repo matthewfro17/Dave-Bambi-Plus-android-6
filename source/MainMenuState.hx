@@ -132,7 +132,9 @@ class MainMenuState extends MusicBeatState
 
 	var black:FlxSprite;
 
+	#if (flixel < "5.5.0")
 	var checker:FlxBackdrop = new FlxBackdrop(Paths.image('ui/checkeredBG'), 0.2, 0.2, true, true);
+	#end
 	var gradientBar:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, 300, 0xFFfd719b);
 
 	override function create()
