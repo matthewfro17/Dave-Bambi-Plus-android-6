@@ -32,8 +32,6 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@main
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
